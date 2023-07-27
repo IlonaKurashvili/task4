@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    background: #FFF;
+}
+/* Header START */
+header {
+    display: flex;
+    width: 1440px;
+    height: 200px;
+    padding: 50px 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 287px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+nav {
+    display: flex;
+    width: 715px;
+    height: 30px;
+    justify-content: center;
+    gap: 38px;
+
+}
+/* Header E N D */
+.cover_img {
+    width: 1180px;
+    height: 287px;
+    flex-shrink: 0;    
+}
+/* Section1 START */
+.section1 {
+    display: flex;
+    width: 1180px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;    
+}
+.section1header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;    
+}
+.section1header img {
+    background: #A62B28;
+    padding: 30px; 
+}
+.section1 main {
+    display: flex;
+    width: 1180px;
+    height: 716px;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.section1 main article {
+    display: flex;
+    width: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;       
+}
+.section1 main article img {
+    padding-bottom: 42px;
+}
+/* Section1 E N D */
+
+/* Section2 START */
+.section2 {
+    display: flex;
+    width: 1180px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+.section2header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;    
+}
+.section2header img {
+    background: #A62B28;
+    padding: 30px; 
+}
+.section2 article {
+    display: flex;
+    width: 1180px;
+    height: 260px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+/* Section2 E N D */
+
+/* Footer Start */
+footer {
+    
+    display: flex;
+    width: 1440px;
+    height: 248px;
+    padding: 71px 130px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 823px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+}
+.icons {
+    
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.footernav {
+    
+ 
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 38px;
+}
+/* Footer E N D */

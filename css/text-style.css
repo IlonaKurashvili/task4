@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'ALK Life';
+    src: url('../fonts/alk_life.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('../fonts/bpg_dejavu_sans.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #717276;
+    font-family: ALK Life;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+}
+header nav a.active {
+    text-decoration: none;
+    color: #A62B28;
+    font-family: ALK Life;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+} 
+header nav a:active {
+    color: #A62B28;
+}
+h3 {
+    color: #717276;
+    font-family: DejaVu Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.section1 main article a:nth-child(4) {
+    color: #000;
+    font-family: DejaVu Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.section1 main article a:nth-child(3) {
+    color: #000;
+    font-family: ALK Life;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.section1 main article a:nth-child(2) {
+    color: #717276;
+    font-family: DejaVu Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.footernav a {
+    text-decoration: none;
+    color: #000;
+    font-family: ALK Life;
+    font-size: 20px;   
+}
